@@ -1,0 +1,243 @@
+{
+  "site": {
+    "brand": "AURIX",
+    "splashTagline": "Hear everything. Feel nothing between.",
+    "topbar": "Free delivery over {freeOver} · 6-month warranty · Order on WhatsApp",
+    "whatsapp": "8801797886096",
+    "currencyLocale": "en-BD",
+    "currencySymbol": "৳",
+    "images": {
+      "logo": "aurix-logo.png",
+      "logoWhite": "aurix-logo-white.png",
+      "hero": "black.png"
+    }
+  },
+  "delivery": {
+    "inside": 80,
+    "outside": 130,
+    "freeOver": 3000
+  },
+  "colors": {
+    "black": "#1B1D1C",
+    "white": "#F2F2EE",
+    "blue": "#2F6FDE",
+    "green": "#2E8B57",
+    "red": "#D64545",
+    "silver": "#BFC5C9",
+    "pink": "#E88FB0"
+  },
+  "categories": ["All", "Audio", "Power & wearables"],
+  "nav": [
+    { "id": "shop", "label": "Shop" },
+    { "id": "offers", "label": "Offers" },
+    { "id": "how", "label": "How it works" },
+    { "id": "story", "label": "About" },
+    { "id": "faq", "label": "Questions" }
+  ],
+  "hero": {
+    "title": "Sound that moves with you.",
+    "text": "Earbuds, speakers, neckbands, headsets, power banks and smart watches. Priced for Bangladesh, ordered on WhatsApp in a minute.",
+    "primaryCta": "Shop all products",
+    "secondaryLink": "See how ordering works"
+  },
+  "shop": {
+    "title": "The lineup",
+    "text": "Every product lists battery, key specs and four colours to choose from.",
+    "searchPlaceholder": "Search watch, speaker…"
+  },
+  "products": [
+    {
+      "id": "buds",
+      "name": "AURIX Air Pro Buds",
+      "category": "Audio",
+      "price": 700,
+      "available": true,
+      "spec": "15h battery",
+      "anc": true,
+      "colors": ["black", "white", "blue", "pink"],
+      "images": {
+        "black": "black.png",
+        "white": "white.png",
+        "blue": "blue.png",
+        "pink": "pink.png"
+      },
+      "note": "True wireless earbuds with hybrid ANC and clear calls.",
+      "uses": "ANC · Bluetooth 5.3 · Wireless charging"
+    },
+    {
+      "id": "speaker",
+      "name": "AURIX Boom Speaker",
+      "category": "Audio",
+      "price": 1000,
+      "available": false,
+      "spec": "12h playtime",
+      "anc": false,
+      "colors": ["black", "blue", "red", "green"],
+      "images": {
+        "black": "available.png",
+        "blue": "available.png",
+        "red": "available.png",
+        "green": "available.png"
+      },
+      "note": "Loud, deep bass in a compact body you can take anywhere.",
+      "uses": "20W · IPX6 waterproof · TWS pairing"
+    },
+    {
+      "id": "neckband",
+      "name": "AURIX Flex Neckband",
+      "category": "Audio",
+      "price": 1290,
+      "available": false,
+      "spec": "30h battery",
+      "anc": false,
+      "colors": ["black", "blue", "red", "white"],
+      "images": {
+        "black": "available.png",
+        "blue": "available.png",
+        "red": "available.png",
+        "white": "available.png"
+      },
+      "note": "Lightweight neckband with magnetic buds for daily use.",
+      "uses": "Bluetooth 5.3 · Magnetic buds · Fast charge"
+    },
+    {
+      "id": "headset",
+      "name": "AURIX Studio Headset",
+      "category": "Audio",
+      "price": 3490,
+      "available": false,
+      "spec": "45h battery",
+      "anc": true,
+      "colors": ["black", "white", "silver", "blue"],
+      "images": {
+        "black": "available.png",
+        "white": "available.png",
+        "silver": "available.png",
+        "blue": "available.png"
+      },
+      "note": "Over-ear comfort with big sound for music, work and games.",
+      "uses": "40 mm drivers · ANC · Dual mic"
+    },
+    {
+      "id": "powerbank",
+      "name": "AURIX Power 20K",
+      "category": "Power & wearables",
+      "price": 2490,
+      "available": false,
+      "spec": "20,000 mAh",
+      "anc": false,
+      "colors": ["black", "white", "blue", "silver"],
+      "images": {
+        "black": "available.png",
+        "white": "available.png",
+        "blue": "available.png",
+        "silver": "available.png"
+      },
+      "note": "Fast charging power bank that keeps phone and buds alive.",
+      "uses": "22.5W fast charge · Dual output · Type-C"
+    },
+    {
+      "id": "watch",
+      "name": "AURIX Pulse Smart Watch",
+      "category": "Power & wearables",
+      "price": 3790,
+      "available": false,
+      "spec": "7-day battery",
+      "anc": false,
+      "colors": ["black", "silver", "pink", "green"],
+      "images": {
+        "black": "available.png",
+        "silver": "available.png",
+        "pink": "available.png",
+        "green": "available.png"
+      },
+      "note": "Bright AMOLED screen with calls, fitness and sleep tracking.",
+      "uses": "1.8\" AMOLED · Calls · Heart rate · IP68"
+    }
+  ],
+  "codes": [
+    { "code": "WELCOME10", "type": "percent", "value": 10 },
+    { "code": "AURIX15", "type": "percent", "value": 15 },
+    { "code": "SAVE200", "type": "fixed", "value": 200 },
+    { "code": "BEATS20", "type": "percent", "value": 20 }
+  ],
+  "offer": {
+    "badgeValue": "20%",
+    "badgeLabel": "off",
+    "title": "Have a redeem code?",
+    "text": "Enter it below and the discount is added to your basket. Some codes give up to 20% off.",
+    "button": "Apply code"
+  },
+  "steps": {
+    "title": "From basket to your hands",
+    "items": [
+      {
+        "icon": "PackageCheck",
+        "title": "Pick your gear",
+        "text": "Choose a product and colour, then add it to your basket."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Send the order on WhatsApp",
+        "text": "Your basket becomes a ready message with items, address and total."
+      },
+      {
+        "icon": "Truck",
+        "title": "We confirm and deliver",
+        "text": "We check stock, confirm the delivery charge and arrange payment with you."
+      }
+    ]
+  },
+  "story": {
+    "title": "Good audio shouldn’t cost a fortune",
+    "paragraphs": [
+      "AURIX started with a simple idea: gadgets that perform, last all day and come with real support if something goes wrong.",
+      "We keep the lineup short, test every batch and answer every order personally on WhatsApp."
+    ],
+    "ticks": [
+      { "icon": "Check", "text": "Tested before dispatch" },
+      { "icon": "BatteryFull", "text": "All-day battery" },
+      { "icon": "ShieldCheck", "text": "6-month warranty" }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "items": [
+      {
+        "q": "How does ordering work?",
+        "a": "Add products to your basket, enter your details and tap send. Your order opens in WhatsApp and we confirm stock, delivery and payment."
+      },
+      {
+        "q": "What does delivery cost?",
+        "a": "৳80 inside Chattogram city and ৳130 elsewhere in Bangladesh. Orders above ৳3,000 ship free. The final charge is confirmed on WhatsApp."
+      },
+      {
+        "q": "Is there a warranty?",
+        "a": "Every AURIX product has a 6-month replacement warranty against manufacturing defects. Keep your order ID for claims."
+      },
+      {
+        "q": "How can I pay?",
+        "a": "Cash on delivery, bKash, Nagad or bank transfer. If you pay digitally, share the transaction ID in the chat."
+      },
+      {
+        "q": "Can I return them?",
+        "a": "Yes, within 3 days if the product is unused and in the original box."
+      }
+    ]
+  },
+  "checkout": {
+    "zones": [
+      { "id": "inside", "label": "Inside Chattogram city" },
+      { "id": "outside", "label": "Outside the city" }
+    ],
+    "paymentMethods": ["Cash on delivery", "bKash", "Nagad", "Bank transfer"],
+    "footNote": "We confirm stock and payment in the chat. You pay nothing until then."
+  },
+  "footer": {
+    "text": "Smart audio and gadgets for everyday Bangladesh.",
+    "links": [
+      { "href": "#shop", "label": "Shop" },
+      { "href": "#faq", "label": "Delivery & warranty" }
+    ]
+  }
+}
