@@ -705,7 +705,7 @@ function App({ data }) {
                   <div className="form">
                     <h3>Delivery details</h3>
                     {field("name", "Name")}
-                    {field("phone", "Phone", "01XXXXXXXXX")}
+                    {field("phone", "Phone", "01576470685")}
                     {field("address", "Address", "House, road, area")}
                     <div
                       className="zones"
